@@ -2,7 +2,7 @@ The following script aims at simplifying the data from the article "Human Activi
 
 The experiment was carried out with a group of 30 volunteers, each performing six different activities - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING wearing a smartphone. Using the embedded accelerometer and gyroscope of the phones, 3-axial linear acceleration and 3-axial angular velocty was captured. The obtained datasets has been randomly partitioned into two datasets - training data - 70% of the volunteers and test data - the rest 30%. The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-### The article proveded the following data:
+#### The article proveded the following data:
 
 * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 * Triaxial Angular velocity from the gyroscope. 
@@ -10,7 +10,7 @@ The experiment was carried out with a group of 30 volunteers, each performing si
 * Its activity label. 
 * An identifier of the subject who carried out the experiment
 
-### The original dataset includes the following files"
+#### The original dataset includes the following files:
 
 * 'features.txt': List of all features.
 * 'activity_labels.txt': Links the class labels with their activity name.
@@ -23,7 +23,7 @@ The experiment was carried out with a group of 30 volunteers, each performing si
 * 'train/Inertial Signals/body_acc_x_train.txt'
 * 'train/Inertial Signals/body_gyro_x_train.txt'
 
-### Notes:
+##### Notes:
 
 * Features are normalized and bounded within [-1,1].
 * Each feature vector is a row on the text file.
