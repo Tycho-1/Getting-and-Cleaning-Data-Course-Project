@@ -28,7 +28,7 @@ The experiment was carried out with a group of 30 volunteers, each performing si
 * Features are normalized and bounded within [-1,1].
 * Each feature vector is a row on the text file.
 
-For the sake of this summarization the Inertial Signals data is ignored. In order to produce the tidy dataset this script combines the afore mentioned data files. The names of the varioables are also transformed so that it is easier to read and uderstand the information.
+For the sake of this summarization the Inertial Signals data is ignored. In order to produce the tidy dataset this script combines the afore mentioned data files. The names of the variables are also transformed so that it is easier to read and uderstand the information.
 
 ## Here are the steps that the script performs:
 
