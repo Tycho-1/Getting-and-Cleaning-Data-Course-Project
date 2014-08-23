@@ -59,7 +59,8 @@ names(tidydata)[1:2] <- c("activity","subject")
 write.table(tidydata,file="./Course Project/tidydata.txt", sep=",",row.name=F)
 
 # Exporting a "draft" code book, i.e. all variable names in text format
-write.table(features_subset,file="./Course Project/CodeBook_draft.txt",quote= F, col.names=F,row.names=F)
+features_subset_text <- cbind(c(rep("*",79)),features_subset) # Addind a "*" before each variable 
+write.table(features_subset_text,file="./Course Project/CodeBook_draft.txt",quote= F, col.names=F,row.names=F)
 
 
 
