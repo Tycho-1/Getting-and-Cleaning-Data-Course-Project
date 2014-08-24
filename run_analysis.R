@@ -44,6 +44,8 @@ features_subset <- paste0(substr(features_subset,2,nchar(features_subset)),subst
 features_subset <- sub("[a][c][c]","accelerometer",features_subset)
 # substituting the abbreviation "gyro" into "gyroscope"
 features_subset <- sub("[g][y][r][o]","gyroscope",features_subset)
+# Removing the duplication of body 
+features_subset <- sub("[b][o][d][y][b][o][d][y]","body",features_subset)
 
 # Changing the names of the resulting reduced dataset with the tidy names 
 names(data)[3:ncol(data)] <- features_subset
